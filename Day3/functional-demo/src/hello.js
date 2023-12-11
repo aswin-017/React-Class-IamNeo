@@ -5,7 +5,7 @@ function Hello(props)
     return (
 
         
-        <form>
+        <form className="box">
             <label className="label">{props.value}</label>
             <input className="input"placeholder={props.placeholder} type={props.type}></input>
         </form>
